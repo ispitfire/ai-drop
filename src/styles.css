@@ -69,6 +69,11 @@ img {
   border-color: #1a1a1a;
 }
 
+.btn:focus-visible {
+  outline: 3px solid #b197fc;
+  outline-offset: 2px;
+}
+
 .btn-primary:hover {
   background: #333;
   border-color: #333;
@@ -142,6 +147,11 @@ img {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.15s ease;
+}
+
+.nav-link:focus-visible {
+  outline: 3px solid #b197fc;
+  outline-offset: 2px;
 }
 
 .nav-link:hover {
@@ -269,9 +279,18 @@ img {
   transition: all 0.15s ease;
 }
 
+.category-chip:focus-visible {
+  outline: 3px solid #b197fc;
+  outline-offset: 2px;
+}
+
 .category-chip:hover {
   background: #1a1a1a;
   color: #fff;
+}
+
+.category-chip:active {
+  transform: scale(0.96);
 }
 
 .category-chip.active {
@@ -318,6 +337,16 @@ img {
 .tool-card:hover {
   transform: translate(-2px, -2px);
   box-shadow: 8px 8px 0 #1a1a1a;
+}
+
+.tool-card:focus-visible {
+  outline: 3px solid #b197fc;
+  outline-offset: 2px;
+}
+
+.tool-card:active {
+  transform: translate(0, 0);
+  box-shadow: 4px 4px 0 #1a1a1a;
 }
 
 .tool-card-featured {
@@ -428,6 +457,12 @@ img {
   text-underline-offset: 3px;
   transition: gap 0.15s ease;
   white-space: nowrap;
+}
+
+.tool-link:focus-visible {
+  outline: 3px solid #b197fc;
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
 .tool-link:hover {
