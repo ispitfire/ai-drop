@@ -65,4 +65,15 @@ describe("AI Drop", () => {
       expect(link).toHaveAttribute("rel", expect.stringContaining("noreferrer"));
     }
   });
+
+  it("connects Browse Tools links to the tool collection", () => {
+    render(<App />);
+    const links = screen.getAllByRole("link", { name: "Browse Tools" });
+
+    for (const link of links) {
+      const target = link.getAttribute("href");
+      expect(target).toBe("#tools");
+      expect(document.querySelector(target)).toBeInTheDocument();
+    }
+  });
 });

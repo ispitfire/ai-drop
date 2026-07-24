@@ -27,7 +27,7 @@ export default function App() {
       <main>
         <Hero />
         <FeaturedTool tool={featuredTool} />
-        <section className="browse-section">
+        <section id="tools" className="browse-section">
           <div className="container">
             <div className="browse-header">
               <h2 className="section-title">{activeCategory === "All" ? "All Tools" : activeCategory}</h2>
