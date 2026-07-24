@@ -1,5 +1,0 @@
-Task 1: complete (commit e6f1fa4, pre-existing committed scaffold)
-Task 2: complete (commits e6f1fa4..cfe0bd1, review clean)
-Task 3: complete (commits eeba9d3 and 547e3fd, review approved; minor: success-copy test is regex-permissive)
-Task 4: complete (commits 6346310 and f07eec7, review approved; historical cache churn removed later)
-Task 5: complete (commits a5de24a, b99ea6a, eebc101; review approved; browser verification passed)
