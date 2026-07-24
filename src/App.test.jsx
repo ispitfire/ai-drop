@@ -26,11 +26,11 @@ describe("AI Drop", () => {
     expect(found).toBe(true);
   });
 
-  it("renders all eight curated records in the main tool grid", () => {
+  it("renders every curated record in the main tool grid", () => {
     render(<App />);
 
     expect(getGridToolNames()).toEqual(tools.map((tool) => tool.name));
-    expect(within(getCuratedGrid()).getAllByRole("article")).toHaveLength(8);
+    expect(within(getCuratedGrid()).getAllByRole("article")).toHaveLength(tools.length);
   });
 
   it("renders category chips in the filter", () => {

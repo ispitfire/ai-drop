@@ -1,4 +1,5 @@
 import { hoursAgoUnix } from "../lib/dates.mjs";
+import { stripShowHnPrefix } from "../lib/normalize.mjs";
 
 const HN_SEARCH_URL = "https://hn.algolia.com/api/v1/search_by_date";
 
@@ -13,12 +14,15 @@ export async function fetchHackerNewsCandidates({ hoursBack = 24, fetchImpl = fe
   const data = await res.json();
   return (data.hits || [])
     .filter((hit) => hit.url && hit.title)
-    .map((hit) => ({
-      sourceKey: `hn:${hit.objectID}`,
-      name: hit.title,
-      description: hit.title,
-      url: hit.url,
-      tags: ["hacker-news"],
-      score: hit.points ?? 0,
-    }));
+    .map((hit) => {
+      const name = stripShowHnPrefix(hit.title);
+      return {
+        sourceKey: `hn:${hit.objectID}`,
+        name,
+        description: name,
+        url: hit.url,
+        tags: ["hacker-news"],
+        score: hit.points ?? 0,
+      };
+    });
 }

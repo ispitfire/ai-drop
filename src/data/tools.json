@@ -131,31 +131,31 @@
       "featured": false
     },
     {
-      "id": "show-hn-pdfly-56-free-pdf-tools-that-run-in-the-browser",
-      "name": "Show HN: PDFly – 56 free PDF tools that run in the browser",
-      "description": "Show HN: PDFly – 56 free PDF tools that run in the browser",
+      "id": "pdfly-56-free-pdf-tools-that-run-in-the-browser",
+      "name": "PDFly – 56 free PDF tools that run in the browser",
+      "description": "PDFly – 56 free PDF tools that run in the browser",
       "category": "Create",
       "tags": [
         "hacker-news"
       ],
       "url": "https://pdfly.uk/",
       "accent": "coral",
-      "icon": "SH",
+      "icon": "PD",
       "isNew": true,
       "addedAt": "2026-07-24",
       "featured": true
     },
     {
-      "id": "show-hn-life-tile-passive-time-tracker-that-shows-your-day-as-a-mondrian-grid",
-      "name": "Show HN: Life Tile – Passive time tracker that shows your day as a Mondrian grid",
-      "description": "Show HN: Life Tile – Passive time tracker that shows your day as a Mondrian grid",
+      "id": "life-tile-passive-time-tracker-that-shows-your-day-as-a-mondrian-grid",
+      "name": "Life Tile – Passive time tracker that shows your day as a Mondrian grid",
+      "description": "Life Tile – Passive time tracker that shows your day as a Mondrian grid",
       "category": "Create",
       "tags": [
         "hacker-news"
       ],
       "url": "https://apps.apple.com/us/app/life-tile-auto-tracker/id6767332648",
       "accent": "lime",
-      "icon": "SH",
+      "icon": "LT",
       "isNew": true,
       "addedAt": "2026-07-24",
       "featured": false

@@ -8,6 +8,10 @@ const CATEGORY_KEYWORDS = {
 
 const ACCENTS = ["coral", "lime", "purple", "blue"];
 
+export function stripShowHnPrefix(title) {
+  return title.replace(/^show\s*hn\s*:\s*/i, "").trim();
+}
+
 export function slugify(name) {
   return name
     .toLowerCase()

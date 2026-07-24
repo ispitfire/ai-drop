@@ -1,5 +1,24 @@
 import { describe, expect, it } from "vitest";
-import { categorize, deriveIcon, normalizeCandidate, pickAccent, slugify, uniqueId } from "./normalize.mjs";
+import {
+  categorize,
+  deriveIcon,
+  normalizeCandidate,
+  pickAccent,
+  slugify,
+  stripShowHnPrefix,
+  uniqueId,
+} from "./normalize.mjs";
+
+describe("stripShowHnPrefix", () => {
+  it("strips the leading Show HN label regardless of spacing/case", () => {
+    expect(stripShowHnPrefix("Show HN: PDFly – 56 free PDF tools")).toBe("PDFly – 56 free PDF tools");
+    expect(stripShowHnPrefix("show hn:no space")).toBe("no space");
+  });
+
+  it("leaves titles without the prefix untouched", () => {
+    expect(stripShowHnPrefix("Regular Tool Name")).toBe("Regular Tool Name");
+  });
+});
 
 describe("slugify", () => {
   it("lowercases and dashes non-alphanumeric characters", () => {
