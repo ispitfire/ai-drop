@@ -3,7 +3,7 @@ import ToolCard from "./ToolCard";
 export default function FeaturedTool({ tool }) {
   if (!tool) return null;
   return (
-    <section className="featured-section" aria-labelledby="featured-heading">
+    <section id="featured" className="featured-section" aria-labelledby="featured-heading">
       <div className="container">
         <div className="featured-label">
           <span className="section-label">

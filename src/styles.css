@@ -8,6 +8,7 @@
   --color-paper: #fff;
   --color-copy: #555;
   --color-muted: #666;
+  --color-success: #237a35;
   --font-body: "DM Sans", system-ui, -apple-system, sans-serif;
   --font-display: "Space Grotesk", "DM Sans", system-ui, sans-serif;
   --type-hero: 2rem;
@@ -44,6 +45,14 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+#top,
+#featured,
+#tools,
+#newsletter,
+#about {
+  scroll-margin-top: 80px;
 }
 
 body {
@@ -286,7 +295,7 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #888;
+  color: var(--color-muted);
   margin-bottom: 8px;
 }
 
@@ -433,6 +442,7 @@ img {
 
 .accent-coral .tool-icon {
   background: var(--color-coral);
+  color: var(--color-ink);
 }
 
 .accent-lime .tool-icon {
@@ -447,6 +457,7 @@ img {
 
 .accent-blue .tool-icon {
   background: var(--color-blue);
+  color: var(--color-ink);
 }
 
 .tool-card-meta {
@@ -469,7 +480,7 @@ img {
 
 .tool-badge-featured {
   background: var(--color-coral);
-  color: var(--color-paper);
+  color: var(--color-ink);
   border-color: var(--color-ink);
 }
 
@@ -570,7 +581,7 @@ img {
 
 .empty-hint {
   font-size: 14px;
-  color: #888;
+  color: var(--color-muted);
 }
 
 /* Fresh drops */
@@ -614,7 +625,7 @@ img {
 
 .footer-tagline {
   font-size: 14px;
-  color: #888;
+  color: var(--color-muted);
   margin-top: 8px;
   max-width: 280px;
   line-height: 1.6;
@@ -658,7 +669,7 @@ img {
   border-top: var(--border-thick);
   padding-top: 16px;
   font-size: 13px;
-  color: #888;
+  color: var(--color-muted);
   text-align: center;
 }
 
@@ -726,7 +737,7 @@ img {
 }
 
 .newsletter-form input::placeholder {
-  color: #aaa;
+  color: var(--color-muted);
 }
 
 .newsletter-status {
@@ -740,7 +751,7 @@ img {
 }
 
 .newsletter-success {
-  color: #2f9e44;
+  color: var(--color-success);
 }
 
 /* Responsive, mobile-first */

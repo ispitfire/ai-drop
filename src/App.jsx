@@ -16,8 +16,8 @@ export default function App() {
 
   const visibleTools =
     activeCategory === "All"
-      ? tools.filter((t) => t.id !== featuredTool?.id)
-      : tools.filter((t) => t.category === activeCategory && t.id !== featuredTool?.id);
+      ? tools
+      : tools.filter((t) => t.category === activeCategory);
   const freshTools = visibleTools.filter((t) => t.isNew);
 
   return (
@@ -26,10 +26,12 @@ export default function App() {
       <main>
         <Hero />
         <FeaturedTool tool={featuredTool} />
-        <section id="tools" className="browse-section">
+        <section id="tools" className="browse-section" aria-labelledby="tools-heading">
           <div className="container">
             <div className="browse-header">
-              <h2 className="section-title">{activeCategory === "All" ? "All Tools" : activeCategory}</h2>
+              <h2 id="tools-heading" className="section-title">
+                {activeCategory === "All" ? "All Tools" : activeCategory}
+              </h2>
               <CategoryFilter
                 categories={categories}
                 activeCategory={activeCategory}

@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="hero">
+    <section id="top" className="hero">
       <div className="container">
         <div className="hero-decor" aria-hidden="true">
           <span className="decor-dot decor-dot-1"></span>

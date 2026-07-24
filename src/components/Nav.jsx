@@ -4,7 +4,7 @@ export default function Nav({ activeCategory, onCategoryChange }) {
   return (
     <nav className="nav" aria-label="Main navigation">
       <div className="nav-inner container">
-        <a href="#" className="nav-brand" aria-label="AI Drop home">
+        <a href="#top" className="nav-brand" aria-label="AI Drop home">
           <span className="nav-brand-icon" aria-hidden="true">&#9889;</span>
           AI Drop
         </a>

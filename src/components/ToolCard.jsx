@@ -22,7 +22,7 @@ export default function ToolCard({ tool, featured }) {
         <a
           href={tool.url}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="tool-link"
         >
           Try it &rarr;
