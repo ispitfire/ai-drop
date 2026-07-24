@@ -34,19 +34,25 @@ describe("AI Drop", () => {
     const user = userEvent.setup();
     render(<App />);
 
+    const featuredId = tools.find((t) => t.featured)?.id;
+
+    // Only tools that appear EXCLUSIVELY in the grid (not featured, not fresh)
+    // These are the only ones we can reliably test for hide/show
     const gridOnlyTools = tools.filter((t) => !t.featured && !t.isNew);
+    const codeGridTools = gridOnlyTools.filter((t) => t.category === "Code");
+    const nonCodeGridTools = gridOnlyTools.filter((t) => t.category !== "Code");
 
     await user.click(
       within(screen.getByRole("group", { name: /filter by category/i }))
         .getByRole("button", { name: "Code" }),
     );
 
-    const codeGridTools = gridOnlyTools.filter((t) => t.category === "Code");
+    // Code grid-only tools should still be visible
     for (const tool of codeGridTools) {
       expect(screen.getByText(tool.name)).toBeInTheDocument();
     }
 
-    const nonCodeGridTools = gridOnlyTools.filter((t) => t.category !== "Code");
+    // Non-Code grid-only tools should disappear
     for (const tool of nonCodeGridTools) {
       expect(screen.queryByText(tool.name)).not.toBeInTheDocument();
     }

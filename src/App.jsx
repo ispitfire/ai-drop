@@ -6,6 +6,7 @@ import FeaturedTool from "./components/FeaturedTool";
 import CategoryFilter from "./components/CategoryFilter";
 import ToolGrid from "./components/ToolGrid";
 import FreshDrops from "./components/FreshDrops";
+import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 import "./styles.css";
 
@@ -42,6 +43,7 @@ export default function App() {
           </div>
         </section>
         <FreshDrops tools={freshTools} />
+        <Newsletter />
       </main>
       <Footer />
     </>
