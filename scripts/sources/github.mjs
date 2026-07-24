@@ -4,10 +4,14 @@ const GH_SEARCH_URL = "https://api.github.com/search/repositories";
 
 export async function fetchGithubTrendingCandidates({
   token = process.env.GITHUB_TOKEN,
-  daysBack = 1,
+  activeWithinDays = 14,
+  minStars = 50,
   fetchImpl = fetch,
 } = {}) {
-  const q = `topic:artificial-intelligence created:>${daysAgoDateString(daysBack)}`;
+  // GitHub's Search API has no "trending" endpoint, so we approximate it: repos
+  // that are actively maintained (pushed recently) AND already popular enough
+  // to be a credible recommendation, rather than merely brand new.
+  const q = `topic:artificial-intelligence pushed:>${daysAgoDateString(activeWithinDays)} stars:>${minStars}`;
   const params = new URLSearchParams({ q, sort: "stars", order: "desc", per_page: "20" });
   const headers = { Accept: "application/vnd.github+json" };
   if (token) headers.Authorization = `Bearer ${token}`;

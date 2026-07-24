@@ -7,7 +7,7 @@ import { fetchProductHuntCandidates } from "./sources/producthunt.mjs";
 import { fetchGithubTrendingCandidates } from "./sources/github.mjs";
 import { normalizeCandidate } from "./lib/normalize.mjs";
 import { filterCandidates } from "./lib/dedupe.mjs";
-import { selectTop } from "./lib/rank.mjs";
+import { filterByMinScore, selectTop } from "./lib/rank.mjs";
 import { recomputeFreshness, setFeatured } from "./lib/freshness.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -16,6 +16,10 @@ const SEEN_SOURCES_PATH = path.join(ROOT, "data/seen-sources.json");
 
 const MAX_NEW_PER_DAY = 3;
 const FRESH_WINDOW_DAYS = 7;
+
+// Quality floor: a candidate must clear its source's bar on its own merits,
+// not just be the "best of a weak batch" — an empty day is better than a filler entry.
+const MIN_SCORE_BY_SOURCE = { hn: 20, gh: 50, ph: 20 };
 
 const isDryRun = process.argv.includes("--dry-run");
 
@@ -48,8 +52,9 @@ async function main() {
   ]);
 
   const allCandidates = [...hn, ...ph, ...gh];
-  const filtered = filterCandidates(allCandidates, { existingTools: toolsData.tools, seenSources });
-  const chosen = selectTop(filtered, MAX_NEW_PER_DAY);
+  const deduped = filterCandidates(allCandidates, { existingTools: toolsData.tools, seenSources });
+  const qualified = filterByMinScore(deduped, MIN_SCORE_BY_SOURCE);
+  const chosen = selectTop(qualified, MAX_NEW_PER_DAY);
 
   const today = new Date().toISOString().slice(0, 10);
   const existingIds = new Set(toolsData.tools.map((t) => t.id));
@@ -71,6 +76,7 @@ async function main() {
 
   if (isDryRun) {
     console.log(`Candidates found: HN=${hn.length} PH=${ph.length} GH=${gh.length}`);
+    console.log(`After dedupe: ${deduped.length}; after quality floor: ${qualified.length}`);
     console.log(`Dry run: would add ${newEntries.length} new tool(s):`);
     for (const entry of newEntries) {
       console.log(`  - ${entry.name} (${entry.category}) ${entry.url}${entry.featured ? " [featured]" : ""}`);
@@ -87,7 +93,11 @@ async function main() {
   await mkdir(path.dirname(SEEN_SOURCES_PATH), { recursive: true });
   await writeFile(SEEN_SOURCES_PATH, JSON.stringify(updatedSeenSources, null, 2) + "\n");
 
-  console.log(`Added ${newEntries.length} new tool(s); wrote ${TOOLS_JSON_PATH} and ${SEEN_SOURCES_PATH}.`);
+  if (newEntries.length === 0) {
+    console.log("No candidates cleared today's quality bar; freshness refreshed, no new tools added.");
+  } else {
+    console.log(`Added ${newEntries.length} new tool(s); wrote ${TOOLS_JSON_PATH} and ${SEEN_SOURCES_PATH}.`);
+  }
 }
 
 main().catch((err) => {

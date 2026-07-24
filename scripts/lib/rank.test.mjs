@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { scoreCandidates, selectTop } from "./rank.mjs";
+import { filterByMinScore, scoreCandidates, selectTop } from "./rank.mjs";
 
 describe("scoreCandidates", () => {
   it("normalizes scores against each source's own max, not a global max", () => {
@@ -40,5 +40,28 @@ describe("selectTop", () => {
 
   it("returns fewer than N when there aren't enough candidates", () => {
     expect(selectTop([{ sourceKey: "hn:1", name: "only", score: 5 }], 3)).toHaveLength(1);
+  });
+});
+
+describe("filterByMinScore", () => {
+  const minScoreBySource = { hn: 20, gh: 50 };
+
+  it("drops candidates below their source's minimum score", () => {
+    const candidates = [
+      { sourceKey: "hn:1", name: "weak-hn", score: 2 },
+      { sourceKey: "hn:2", name: "strong-hn", score: 25 },
+      { sourceKey: "gh:owner/repo", name: "weak-gh", score: 10 },
+    ];
+    expect(filterByMinScore(candidates, minScoreBySource).map((c) => c.name)).toEqual(["strong-hn"]);
+  });
+
+  it("treats an unlisted source as having no minimum", () => {
+    const candidates = [{ sourceKey: "ph:1", name: "ph-item", score: 0 }];
+    expect(filterByMinScore(candidates, minScoreBySource)).toEqual(candidates);
+  });
+
+  it("returns an empty array when nothing clears the bar", () => {
+    const candidates = [{ sourceKey: "hn:1", name: "weak", score: 1 }];
+    expect(filterByMinScore(candidates, minScoreBySource)).toEqual([]);
   });
 });

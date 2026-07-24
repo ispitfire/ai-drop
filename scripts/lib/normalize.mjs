@@ -1,6 +1,11 @@
 const CATEGORY_KEYWORDS = {
-  Create: ["image", "video", "art", "design", "music", "audio", "creative", "generation", "generate"],
-  Code: ["code", "coding", "ide", "editor", "cli", "compiler", "developer", "programming", "sdk"],
+  // NOTE: avoid short/generic substrings here — every GitHub candidate carries
+  // the literal tag "artificial-intelligence" (it's the search topic), so a
+  // bare "art" keyword false-matched almost everything into this category.
+  Create: ["image", "video", "artwork", "illustration", "design", "music", "audio", "creative", "generation", "generate"],
+  // "ide" was dropped: it's a substring of "provide", "decide", "video", "side",
+  // "wide", etc. — far too common in ordinary description text. "editor" covers intent.
+  Code: ["code", "coding", "editor", "cli", "compiler", "developer", "programming", "sdk"],
   Research: ["research", "benchmark", "evaluation", "eval", "paper", "dataset", "science"],
   Automate: ["agent", "automation", "automate", "workflow", "autonomous", "pipeline", "bot"],
   Work: ["productivity", "business", "saas", "backend", "database", "enterprise", "office", "team"],

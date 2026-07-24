@@ -1,5 +1,9 @@
-function sourceOf(candidate) {
+export function sourceOf(candidate) {
   return candidate.sourceKey?.split(":")[0] ?? "unknown";
+}
+
+export function filterByMinScore(candidates, minScoreBySource) {
+  return candidates.filter((c) => (c.score || 0) >= (minScoreBySource[sourceOf(c)] ?? 0));
 }
 
 export function scoreCandidates(candidates) {
