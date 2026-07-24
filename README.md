@@ -63,7 +63,7 @@ src/
 
 ## Verification
 
-- `npm test -- --run` — 7 tests pass (rendering, filtering, newsletter, links)
+- `npm test -- --run` — 8 tests pass (rendering, filtering, newsletter, links)
 - `npm run build` — Production build completes successfully
 - Mobile, tablet, and desktop responsive breakpoints
 - Keyboard navigation with visible focus indicators
