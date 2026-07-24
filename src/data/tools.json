@@ -1,88 +1,182 @@
 {
-  "categories": ["All", "Create", "Code", "Research", "Automate", "Work"],
+  "categories": [
+    "All",
+    "Create",
+    "Code",
+    "Research",
+    "Automate",
+    "Work"
+  ],
   "tools": [
     {
       "id": "claude-code",
       "name": "Claude Code",
       "description": "Agentic coding from Anthropic — edit files, manage git, run commands, and ship features autonomously.",
       "category": "Code",
-      "tags": ["coding", "agent", "cli"],
+      "tags": [
+        "coding",
+        "agent",
+        "cli"
+      ],
       "url": "https://claude.ai/code",
       "accent": "coral",
       "icon": "CC",
-      "featured": true
+      "featured": false
     },
     {
       "id": "comfyui",
       "name": "ComfyUI",
       "description": "Node-based Stable Diffusion workflow builder. Drag, connect, and generate stunning AI imagery.",
       "category": "Create",
-      "tags": ["image", "generation", "workflow"],
+      "tags": [
+        "image",
+        "generation",
+        "workflow"
+      ],
       "url": "https://www.comfyui.org",
       "accent": "lime",
       "icon": "CU",
-      "isNew": true
+      "isNew": true,
+      "featured": false
     },
     {
       "id": "llamacpp",
       "name": "llama.cpp",
       "description": "High-performance LLM inference in C/C++. Run GGUF models locally on CPU, GPU, or hybrid.",
       "category": "Code",
-      "tags": ["inference", "local", "llm"],
+      "tags": [
+        "inference",
+        "local",
+        "llm"
+      ],
       "url": "https://github.com/ggerganov/llama.cpp",
       "accent": "blue",
-      "icon": "l♥"
+      "icon": "l♥",
+      "featured": false
     },
     {
       "id": "hermes-agent",
       "name": "Hermes Agent",
       "description": "Open-source autonomous agent by Nous Research. Terminal-native with web, code, and delegation tools.",
       "category": "Automate",
-      "tags": ["agent", "terminal", "open-source"],
+      "tags": [
+        "agent",
+        "terminal",
+        "open-source"
+      ],
       "url": "https://hermes-agent.nousresearch.com",
       "accent": "purple",
       "icon": "HA",
-      "isNew": true
+      "isNew": true,
+      "featured": false
     },
     {
       "id": "lm-eval",
       "name": "LM Evaluation Harness",
       "description": "Standardized LLM benchmarking on MMLU, GSM8K, and hundreds of tasks. The community evaluation standard.",
       "category": "Research",
-      "tags": ["evaluation", "benchmark", "llm"],
+      "tags": [
+        "evaluation",
+        "benchmark",
+        "llm"
+      ],
       "url": "https://github.com/EleutherAI/lm-evaluation-harness",
       "accent": "coral",
-      "icon": "EH"
+      "icon": "EH",
+      "featured": false
     },
     {
       "id": "supabase",
       "name": "Supabase",
       "description": "Open-source Firebase alternative with pgvector, AI SDK, and edge functions for AI-powered apps.",
       "category": "Work",
-      "tags": ["backend", "database", "vector"],
+      "tags": [
+        "backend",
+        "database",
+        "vector"
+      ],
       "url": "https://supabase.com",
       "accent": "lime",
-      "icon": "SB"
+      "icon": "SB",
+      "featured": false
     },
     {
       "id": "cursor",
       "name": "Cursor",
       "description": "AI-first code editor. Inline AI chat, multi-file editing, agent mode, and deep codebase understanding.",
       "category": "Code",
-      "tags": ["editor", "coding", "ide"],
+      "tags": [
+        "editor",
+        "coding",
+        "ide"
+      ],
       "url": "https://cursor.com",
       "accent": "blue",
-      "icon": "CS"
+      "icon": "CS",
+      "featured": false
     },
     {
       "id": "huggingface",
       "name": "Hugging Face Hub",
       "description": "Platform for hosting models, datasets, and Spaces. MLOps tooling for the AI community.",
       "category": "Work",
-      "tags": ["models", "datasets", "mlops"],
+      "tags": [
+        "models",
+        "datasets",
+        "mlops"
+      ],
       "url": "https://huggingface.co",
       "accent": "purple",
-      "icon": "HF"
+      "icon": "HF",
+      "featured": false
+    },
+    {
+      "id": "show-hn-pdfly-56-free-pdf-tools-that-run-in-the-browser",
+      "name": "Show HN: PDFly – 56 free PDF tools that run in the browser",
+      "description": "Show HN: PDFly – 56 free PDF tools that run in the browser",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://pdfly.uk/",
+      "accent": "coral",
+      "icon": "SH",
+      "isNew": true,
+      "addedAt": "2026-07-24",
+      "featured": true
+    },
+    {
+      "id": "show-hn-life-tile-passive-time-tracker-that-shows-your-day-as-a-mondrian-grid",
+      "name": "Show HN: Life Tile – Passive time tracker that shows your day as a Mondrian grid",
+      "description": "Show HN: Life Tile – Passive time tracker that shows your day as a Mondrian grid",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://apps.apple.com/us/app/life-tile-auto-tracker/id6767332648",
+      "accent": "lime",
+      "icon": "SH",
+      "isNew": true,
+      "addedAt": "2026-07-24",
+      "featured": false
+    },
+    {
+      "id": "superres-fr",
+      "name": "Superres-fr",
+      "description": "python notebook super resolution",
+      "category": "Create",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "basicsr",
+        "cctv"
+      ],
+      "url": "https://github.com/Morteza-Asadi-Shalmaiy/Superres-fr",
+      "accent": "purple",
+      "icon": "SF",
+      "isNew": true,
+      "addedAt": "2026-07-24",
+      "featured": false
     }
   ]
 }
