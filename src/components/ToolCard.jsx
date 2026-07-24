@@ -3,7 +3,7 @@ export default function ToolCard({ tool, featured }) {
   return (
     <article className={`tool-card ${accentClass} ${featured ? "tool-card-featured" : ""}`}>
       <div className="tool-card-header">
-        <span className="tool-icon" aria-hidden="true" style={{ background: tool.accent === "coral" ? "#ff6b6b" : tool.accent === "lime" ? "#51cf66" : tool.accent === "blue" ? "#339af0" : "#b197fc" }}>
+        <span className="tool-icon" aria-hidden="true">
           {tool.icon}
         </span>
         <div className="tool-card-meta">
