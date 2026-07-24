@@ -1,4 +1,4 @@
-# AI Drop
+# codex-ai-drop
 
 A curated launch board for discovering recently released AI tools, apps, skills, and plugins. Built with React and Vite.
 
