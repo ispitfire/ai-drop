@@ -11,6 +11,7 @@ export default function Newsletter() {
       return;
     }
     setStatus("success");
+    setEmail("");
   }
 
   function handleChange(e) {
