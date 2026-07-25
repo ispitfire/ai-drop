@@ -143,7 +143,7 @@
       "icon": "PD",
       "isNew": true,
       "addedAt": "2026-07-24",
-      "featured": true
+      "featured": false
     },
     {
       "id": "life-tile-passive-time-tracker-that-shows-your-day-as-a-mondrian-grid",
@@ -176,6 +176,59 @@
       "icon": "SF",
       "isNew": true,
       "addedAt": "2026-07-24",
+      "featured": false
+    },
+    {
+      "id": "heard",
+      "name": "Heard",
+      "description": "Give Claude Code and Codex a voice",
+      "category": "Code",
+      "tags": [
+        "productivity",
+        "developer tools",
+        "artificial intelligence",
+        "github"
+      ],
+      "url": "https://www.producthunt.com/products/heard-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "blue",
+      "icon": "HE",
+      "isNew": true,
+      "addedAt": "2026-07-25",
+      "featured": true
+    },
+    {
+      "id": "autogpt",
+      "name": "AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "category": "Automate",
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence"
+      ],
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "accent": "coral",
+      "icon": "AU",
+      "isNew": true,
+      "addedAt": "2026-07-25",
+      "featured": false
+    },
+    {
+      "id": "fluentdb",
+      "name": "FluentDB",
+      "description": "The AI database client for Mac",
+      "category": "Code",
+      "tags": [
+        "productivity",
+        "developer tools",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/fluentdb-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "lime",
+      "icon": "FL",
+      "isNew": true,
+      "addedAt": "2026-07-25",
       "featured": false
     }
   ]
