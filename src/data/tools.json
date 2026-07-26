@@ -194,7 +194,7 @@
       "icon": "HE",
       "isNew": true,
       "addedAt": "2026-07-25",
-      "featured": true
+      "featured": false
     },
     {
       "id": "autogpt",
@@ -229,6 +229,56 @@
       "icon": "FL",
       "isNew": true,
       "addedAt": "2026-07-25",
+      "featured": false
+    },
+    {
+      "id": "brolly-a-plain-text-weather-forecast-site",
+      "name": "Brolly, a plain-text weather forecast site",
+      "description": "Brolly, a plain-text weather forecast site",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://brolly.sh/forecast/RWFP2qW8",
+      "accent": "purple",
+      "icon": "BA",
+      "isNew": true,
+      "addedAt": "2026-07-26",
+      "featured": true
+    },
+    {
+      "id": "athena-by-shoplazza",
+      "name": "Athena by Shoplazza",
+      "description": "An orchestrator agent for your entire commerce stack",
+      "category": "Automate",
+      "tags": [
+        "artificial intelligence",
+        "e-commerce",
+        "shopping"
+      ],
+      "url": "https://www.producthunt.com/products/athena-by-shoplazza?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "blue",
+      "icon": "AB",
+      "isNew": true,
+      "addedAt": "2026-07-26",
+      "featured": false
+    },
+    {
+      "id": "prompts-chat",
+      "name": "prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "category": "Create",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt"
+      ],
+      "url": "https://github.com/f/prompts.chat",
+      "accent": "coral",
+      "icon": "PC",
+      "isNew": true,
+      "addedAt": "2026-07-26",
       "featured": false
     }
   ]
