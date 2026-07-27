@@ -244,7 +244,7 @@
       "icon": "BA",
       "isNew": true,
       "addedAt": "2026-07-26",
-      "featured": true
+      "featured": false
     },
     {
       "id": "athena-by-shoplazza",
@@ -279,6 +279,59 @@
       "icon": "PC",
       "isNew": true,
       "addedAt": "2026-07-26",
+      "featured": false
+    },
+    {
+      "id": "adomate",
+      "name": "Adomate",
+      "description": "Turn data into winning ads. At scale.",
+      "category": "Create",
+      "tags": [
+        "design tools",
+        "marketing",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/adomate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "lime",
+      "icon": "AD",
+      "isNew": true,
+      "addedAt": "2026-07-27",
+      "featured": true
+    },
+    {
+      "id": "llms-from-scratch",
+      "name": "LLMs-from-scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "category": "Create",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "attention-mechanism",
+        "deep-learning"
+      ],
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "accent": "purple",
+      "icon": "LF",
+      "isNew": true,
+      "addedAt": "2026-07-27",
+      "featured": false
+    },
+    {
+      "id": "deep-live-cam",
+      "name": "Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "category": "Create",
+      "tags": [
+        "ai",
+        "ai-deep-fake",
+        "ai-face",
+        "ai-webcam"
+      ],
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "accent": "blue",
+      "icon": "DL",
+      "isNew": true,
+      "addedAt": "2026-07-27",
       "featured": false
     }
   ]
