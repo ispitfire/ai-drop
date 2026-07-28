@@ -296,7 +296,7 @@
       "icon": "AD",
       "isNew": true,
       "addedAt": "2026-07-27",
-      "featured": true
+      "featured": false
     },
     {
       "id": "llms-from-scratch",
@@ -332,6 +332,56 @@
       "icon": "DL",
       "isNew": true,
       "addedAt": "2026-07-27",
+      "featured": false
+    },
+    {
+      "id": "formally-verified-3d-csg-trust-93-lines-spec-not-1000-lines-ai-code",
+      "name": "Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+      "description": "Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+      "category": "Code",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://github.com/schildep/verified-3d-mesh-intersection",
+      "accent": "coral",
+      "icon": "FV",
+      "isNew": true,
+      "addedAt": "2026-07-28",
+      "featured": true
+    },
+    {
+      "id": "prefactor",
+      "name": "Prefactor",
+      "description": "Evaluate your AI Agents in real-time",
+      "category": "Code",
+      "tags": [
+        "saas",
+        "developer tools",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "lime",
+      "icon": "PR",
+      "isNew": true,
+      "addedAt": "2026-07-28",
+      "featured": false
+    },
+    {
+      "id": "claude-mem",
+      "name": "claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "category": "Code",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic"
+      ],
+      "url": "https://github.com/thedotmack/claude-mem",
+      "accent": "purple",
+      "icon": "CM",
+      "isNew": true,
+      "addedAt": "2026-07-28",
       "featured": false
     }
   ]
