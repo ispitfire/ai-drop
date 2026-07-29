@@ -347,7 +347,7 @@
       "icon": "FV",
       "isNew": true,
       "addedAt": "2026-07-28",
-      "featured": true
+      "featured": false
     },
     {
       "id": "prefactor",
@@ -382,6 +382,56 @@
       "icon": "CM",
       "isNew": true,
       "addedAt": "2026-07-28",
+      "featured": false
+    },
+    {
+      "id": "open-source-engine-running-gemma-4-26b-in-2-gb-ram-on-any-m-series-mac",
+      "name": "Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "description": "Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "accent": "blue",
+      "icon": "OS",
+      "isNew": true,
+      "addedAt": "2026-07-29",
+      "featured": true
+    },
+    {
+      "id": "prelint",
+      "name": "Prelint",
+      "description": "Prevent product drift in AI-written code",
+      "category": "Code",
+      "tags": [
+        "software engineering",
+        "developer tools",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/prelint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "coral",
+      "icon": "PR",
+      "isNew": true,
+      "addedAt": "2026-07-29",
+      "featured": false
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "category": "Code",
+      "tags": [
+        "agent",
+        "artificial-intelligence",
+        "chatgpt",
+        "claude-ai"
+      ],
+      "url": "https://github.com/OpenHands/OpenHands",
+      "accent": "lime",
+      "icon": "OP",
+      "isNew": true,
+      "addedAt": "2026-07-29",
       "featured": false
     }
   ]
