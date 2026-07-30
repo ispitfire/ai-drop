@@ -397,7 +397,7 @@
       "icon": "OS",
       "isNew": true,
       "addedAt": "2026-07-29",
-      "featured": true
+      "featured": false
     },
     {
       "id": "prelint",
@@ -432,6 +432,56 @@
       "icon": "OP",
       "isNew": true,
       "addedAt": "2026-07-29",
+      "featured": false
+    },
+    {
+      "id": "a-local-merge-queue-for-parallel-claude-code-agents",
+      "name": "A local merge queue for parallel Claude Code agents",
+      "description": "A local merge queue for parallel Claude Code agents",
+      "category": "Code",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://github.com/funador/claude-code-merge-queue",
+      "accent": "purple",
+      "icon": "AL",
+      "isNew": true,
+      "addedAt": "2026-07-30",
+      "featured": true
+    },
+    {
+      "id": "ski",
+      "name": "SKI",
+      "description": "Free voice coding for Claude Code, Codex and more",
+      "category": "Code",
+      "tags": [
+        "productivity",
+        "developer tools",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "blue",
+      "icon": "SK",
+      "isNew": true,
+      "addedAt": "2026-07-30",
+      "featured": false
+    },
+    {
+      "id": "flowise",
+      "name": "Flowise",
+      "description": "Build AI Agents, Visually",
+      "category": "Automate",
+      "tags": [
+        "agentic-ai",
+        "agentic-workflow",
+        "agents",
+        "artificial-intelligence"
+      ],
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "accent": "coral",
+      "icon": "FL",
+      "isNew": true,
+      "addedAt": "2026-07-30",
       "featured": false
     }
   ]
