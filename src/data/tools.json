@@ -447,7 +447,7 @@
       "icon": "AL",
       "isNew": true,
       "addedAt": "2026-07-30",
-      "featured": true
+      "featured": false
     },
     {
       "id": "ski",
@@ -482,6 +482,56 @@
       "icon": "FL",
       "isNew": true,
       "addedAt": "2026-07-30",
+      "featured": false
+    },
+    {
+      "id": "what-should-the-gui-for-ai-agents-look-like",
+      "name": "What should the GUI for AI agents look like?",
+      "description": "What should the GUI for AI agents look like?",
+      "category": "Automate",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://marbleos.com/demo",
+      "accent": "lime",
+      "icon": "WS",
+      "isNew": true,
+      "addedAt": "2026-07-31",
+      "featured": true
+    },
+    {
+      "id": "minimax-h3",
+      "name": "MiniMax H3",
+      "description": "Unified video generation for motion design and branding",
+      "category": "Create",
+      "tags": [
+        "design tools",
+        "art",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/minimax?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "purple",
+      "icon": "MH",
+      "isNew": true,
+      "addedAt": "2026-07-31",
+      "featured": false
+    },
+    {
+      "id": "ai-for-beginners",
+      "name": "AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "category": "Create",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "cnn",
+        "computer-vision"
+      ],
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "accent": "blue",
+      "icon": "AF",
+      "isNew": true,
+      "addedAt": "2026-07-31",
       "featured": false
     }
   ]
