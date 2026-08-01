@@ -141,7 +141,7 @@
       "url": "https://pdfly.uk/",
       "accent": "coral",
       "icon": "PD",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-24",
       "featured": false
     },
@@ -156,7 +156,7 @@
       "url": "https://apps.apple.com/us/app/life-tile-auto-tracker/id6767332648",
       "accent": "lime",
       "icon": "LT",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-24",
       "featured": false
     },
@@ -174,7 +174,7 @@
       "url": "https://github.com/Morteza-Asadi-Shalmaiy/Superres-fr",
       "accent": "purple",
       "icon": "SF",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-24",
       "featured": false
     },
@@ -497,7 +497,7 @@
       "icon": "WS",
       "isNew": true,
       "addedAt": "2026-07-31",
-      "featured": true
+      "featured": false
     },
     {
       "id": "minimax-h3",
@@ -532,6 +532,54 @@
       "icon": "AF",
       "isNew": true,
       "addedAt": "2026-07-31",
+      "featured": false
+    },
+    {
+      "id": "i-worked-on-a-new-browser-for-2-years-today-it-passed-acid-3",
+      "name": "I worked on a new browser for 2 years, today it passed Acid 3",
+      "description": "I worked on a new browser for 2 years, today it passed Acid 3",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://code.intellios.ai/cwbrowser/",
+      "accent": "coral",
+      "icon": "IW",
+      "isNew": true,
+      "addedAt": "2026-08-01",
+      "featured": true
+    },
+    {
+      "id": "nudgeforme",
+      "name": "NudgeForMe",
+      "description": "AI follow-up agent for missed email opportunities",
+      "category": "Automate",
+      "tags": [
+        "email",
+        "productivity",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/nudgeforme?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "lime",
+      "icon": "NU",
+      "isNew": true,
+      "addedAt": "2026-08-01",
+      "featured": false
+    },
+    {
+      "id": "minimind",
+      "name": "minimind",
+      "description": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
+      "category": "Create",
+      "tags": [
+        "artificial-intelligence",
+        "large-language-model"
+      ],
+      "url": "https://github.com/jingyaogong/minimind",
+      "accent": "purple",
+      "icon": "MI",
+      "isNew": true,
+      "addedAt": "2026-08-01",
       "featured": false
     }
   ]
