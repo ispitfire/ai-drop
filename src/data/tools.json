@@ -192,7 +192,7 @@
       "url": "https://www.producthunt.com/products/heard-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "blue",
       "icon": "HE",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-25",
       "featured": false
     },
@@ -210,7 +210,7 @@
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "accent": "coral",
       "icon": "AU",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-25",
       "featured": false
     },
@@ -227,7 +227,7 @@
       "url": "https://www.producthunt.com/products/fluentdb-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "lime",
       "icon": "FL",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-25",
       "featured": false
     },
@@ -547,7 +547,7 @@
       "icon": "IW",
       "isNew": true,
       "addedAt": "2026-08-01",
-      "featured": true
+      "featured": false
     },
     {
       "id": "nudgeforme",
@@ -580,6 +580,57 @@
       "icon": "MI",
       "isNew": true,
       "addedAt": "2026-08-01",
+      "featured": false
+    },
+    {
+      "id": "costperprompt-live-ai-api-pricing-and-real-workload-cost-calculators",
+      "name": "CostPerPrompt – Live AI API pricing and real-workload cost calculators",
+      "description": "CostPerPrompt – Live AI API pricing and real-workload cost calculators",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://costperprompt.com/",
+      "accent": "blue",
+      "icon": "C–",
+      "isNew": true,
+      "addedAt": "2026-08-02",
+      "featured": true
+    },
+    {
+      "id": "strix",
+      "name": "strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "category": "Automate",
+      "tags": [
+        "agents",
+        "ai-hacking",
+        "ai-penetration-testing",
+        "ai-pentesting"
+      ],
+      "url": "https://github.com/usestrix/strix",
+      "accent": "coral",
+      "icon": "ST",
+      "isNew": true,
+      "addedAt": "2026-08-02",
+      "featured": false
+    },
+    {
+      "id": "kong",
+      "name": "kong",
+      "description": "🦍 The API and AI Gateway",
+      "category": "Create",
+      "tags": [
+        "ai",
+        "ai-gateway",
+        "api-gateway",
+        "api-management"
+      ],
+      "url": "https://github.com/Kong/kong",
+      "accent": "lime",
+      "icon": "KO",
+      "isNew": true,
+      "addedAt": "2026-08-02",
       "featured": false
     }
   ]
