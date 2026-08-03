@@ -242,7 +242,7 @@
       "url": "https://brolly.sh/forecast/RWFP2qW8",
       "accent": "purple",
       "icon": "BA",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-26",
       "featured": false
     },
@@ -259,7 +259,7 @@
       "url": "https://www.producthunt.com/products/athena-by-shoplazza?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "blue",
       "icon": "AB",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-26",
       "featured": false
     },
@@ -277,7 +277,7 @@
       "url": "https://github.com/f/prompts.chat",
       "accent": "coral",
       "icon": "PC",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-26",
       "featured": false
     },
@@ -595,7 +595,7 @@
       "icon": "C–",
       "isNew": true,
       "addedAt": "2026-08-02",
-      "featured": true
+      "featured": false
     },
     {
       "id": "strix",
@@ -631,6 +631,59 @@
       "icon": "KO",
       "isNew": true,
       "addedAt": "2026-08-02",
+      "featured": false
+    },
+    {
+      "id": "agentsky",
+      "name": "AgentSky",
+      "description": "Any harness, any LLM — cloud-hosted agents on demand.",
+      "category": "Code",
+      "tags": [
+        "saas",
+        "developer tools",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/agentsky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "purple",
+      "icon": "AG",
+      "isNew": true,
+      "addedAt": "2026-08-03",
+      "featured": true
+    },
+    {
+      "id": "pytorch-lightning",
+      "name": "pytorch-lightning",
+      "description": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.",
+      "category": "Code",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "data-science",
+        "deep-learning"
+      ],
+      "url": "https://github.com/Lightning-AI/pytorch-lightning",
+      "accent": "blue",
+      "icon": "PL",
+      "isNew": true,
+      "addedAt": "2026-08-03",
+      "featured": false
+    },
+    {
+      "id": "sim",
+      "name": "sim",
+      "description": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
+      "category": "Automate",
+      "tags": [
+        "agent-workflow",
+        "agentic-workflow",
+        "agents",
+        "ai"
+      ],
+      "url": "https://github.com/simstudioai/sim",
+      "accent": "coral",
+      "icon": "SI",
+      "isNew": true,
+      "addedAt": "2026-08-03",
       "featured": false
     }
   ]
