@@ -294,7 +294,7 @@
       "url": "https://www.producthunt.com/products/adomate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "lime",
       "icon": "AD",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-27",
       "featured": false
     },
@@ -312,7 +312,7 @@
       "url": "https://github.com/rasbt/LLMs-from-scratch",
       "accent": "purple",
       "icon": "LF",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-27",
       "featured": false
     },
@@ -330,7 +330,7 @@
       "url": "https://github.com/hacksider/Deep-Live-Cam",
       "accent": "blue",
       "icon": "DL",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-27",
       "featured": false
     },
@@ -648,7 +648,7 @@
       "icon": "AG",
       "isNew": true,
       "addedAt": "2026-08-03",
-      "featured": true
+      "featured": false
     },
     {
       "id": "pytorch-lightning",
@@ -684,6 +684,57 @@
       "icon": "SI",
       "isNew": true,
       "addedAt": "2026-08-03",
+      "featured": false
+    },
+    {
+      "id": "hacker-news-with-ai-stories-filtered-out",
+      "name": "Hacker News with AI stories filtered out",
+      "description": "Hacker News with AI stories filtered out",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://hcker.news/?view=frontpage&ai=exclude",
+      "accent": "lime",
+      "icon": "HN",
+      "isNew": true,
+      "addedAt": "2026-08-04",
+      "featured": true
+    },
+    {
+      "id": "h4cker",
+      "name": "h4cker",
+      "description": "This repository is maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), AI security, vulnerability research, exploit development, reverse engineering, and more. 🔥 Also check: https://hackertraining.org",
+      "category": "Research",
+      "tags": [
+        "ai",
+        "ai-security",
+        "artificial-intelligence",
+        "awesome-list"
+      ],
+      "url": "https://github.com/The-Art-of-Hacking/h4cker",
+      "accent": "purple",
+      "icon": "H4",
+      "isNew": true,
+      "addedAt": "2026-08-04",
+      "featured": false
+    },
+    {
+      "id": "semantic-kernel",
+      "name": "semantic-kernel",
+      "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+      "category": "Code",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "llm",
+        "openai"
+      ],
+      "url": "https://github.com/microsoft/semantic-kernel",
+      "accent": "blue",
+      "icon": "SK",
+      "isNew": true,
+      "addedAt": "2026-08-04",
       "featured": false
     }
   ]
