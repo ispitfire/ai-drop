@@ -34,5 +34,8 @@
   "gh:simstudioai/sim",
   "hn:49159018",
   "gh:The-Art-of-Hacking/h4cker",
-  "gh:microsoft/semantic-kernel"
+  "gh:microsoft/semantic-kernel",
+  "gh:feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+  "gh:invoke-ai/InvokeAI",
+  "gh:harvard-edge/cs249r_book"
 ]

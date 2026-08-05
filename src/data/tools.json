@@ -345,7 +345,7 @@
       "url": "https://github.com/schildep/verified-3d-mesh-intersection",
       "accent": "coral",
       "icon": "FV",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-28",
       "featured": false
     },
@@ -362,7 +362,7 @@
       "url": "https://www.producthunt.com/products/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "lime",
       "icon": "PR",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-28",
       "featured": false
     },
@@ -380,7 +380,7 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "accent": "purple",
       "icon": "CM",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-28",
       "featured": false
     },
@@ -699,7 +699,7 @@
       "icon": "HN",
       "isNew": true,
       "addedAt": "2026-08-04",
-      "featured": true
+      "featured": false
     },
     {
       "id": "h4cker",
@@ -735,6 +735,60 @@
       "icon": "SK",
       "isNew": true,
       "addedAt": "2026-08-04",
+      "featured": false
+    },
+    {
+      "id": "jobs-applier-ai-agent-aihawk",
+      "name": "Jobs_Applier_AI_Agent_AIHawk",
+      "description": "AIHawk aims to easy job hunt process by automating the job application process. Utilizing artificial intelligence, it enables users to apply for multiple jobs in a tailored way.",
+      "category": "Automate",
+      "tags": [
+        "agent",
+        "application-resume",
+        "artificial-intelligence",
+        "automate"
+      ],
+      "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "accent": "coral",
+      "icon": "JA",
+      "isNew": true,
+      "addedAt": "2026-08-05",
+      "featured": true
+    },
+    {
+      "id": "invokeai",
+      "name": "InvokeAI",
+      "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+      "category": "Create",
+      "tags": [
+        "ai-art",
+        "artificial-intelligence",
+        "generative-art",
+        "image-generation"
+      ],
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "accent": "lime",
+      "icon": "IN",
+      "isNew": true,
+      "addedAt": "2026-08-05",
+      "featured": false
+    },
+    {
+      "id": "cs249r-book",
+      "name": "cs249r_book",
+      "description": "Machine Learning Systems",
+      "category": "Create",
+      "tags": [
+        "artificial-intelligence",
+        "cloud-ml",
+        "computer-systems",
+        "courseware"
+      ],
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "accent": "purple",
+      "icon": "CB",
+      "isNew": true,
+      "addedAt": "2026-08-05",
       "featured": false
     }
   ]
