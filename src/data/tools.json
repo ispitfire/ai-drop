@@ -395,7 +395,7 @@
       "url": "https://github.com/drumih/turbo-fieldfare",
       "accent": "blue",
       "icon": "OS",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-29",
       "featured": false
     },
@@ -412,7 +412,7 @@
       "url": "https://www.producthunt.com/products/prelint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "coral",
       "icon": "PR",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-29",
       "featured": false
     },
@@ -430,7 +430,7 @@
       "url": "https://github.com/OpenHands/OpenHands",
       "accent": "lime",
       "icon": "OP",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-29",
       "featured": false
     },
@@ -753,7 +753,7 @@
       "icon": "JA",
       "isNew": true,
       "addedAt": "2026-08-05",
-      "featured": true
+      "featured": false
     },
     {
       "id": "invokeai",
@@ -789,6 +789,57 @@
       "icon": "CB",
       "isNew": true,
       "addedAt": "2026-08-05",
+      "featured": false
+    },
+    {
+      "id": "hacker-news-with-reduced-priority-for-ai-driven-content",
+      "name": "Hacker News with reduced priority for AI driven content",
+      "description": "Hacker News with reduced priority for AI driven content",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://sprinklz.io/public/nncrnx74ykir",
+      "accent": "blue",
+      "icon": "HN",
+      "isNew": true,
+      "addedAt": "2026-08-06",
+      "featured": true
+    },
+    {
+      "id": "repomix",
+      "name": "repomix",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "category": "Code",
+      "tags": [
+        "ai",
+        "anthropic",
+        "artificial-intelligence",
+        "chatbot"
+      ],
+      "url": "https://github.com/yamadashy/repomix",
+      "accent": "coral",
+      "icon": "RE",
+      "isNew": true,
+      "addedAt": "2026-08-06",
+      "featured": false
+    },
+    {
+      "id": "ai",
+      "name": "ai",
+      "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+      "category": "Code",
+      "tags": [
+        "anthropic",
+        "artificial-intelligence",
+        "gemini",
+        "generative-ai"
+      ],
+      "url": "https://github.com/vercel/ai",
+      "accent": "lime",
+      "icon": "AI",
+      "isNew": true,
+      "addedAt": "2026-08-06",
       "featured": false
     }
   ]
