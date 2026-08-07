@@ -445,7 +445,7 @@
       "url": "https://github.com/funador/claude-code-merge-queue",
       "accent": "purple",
       "icon": "AL",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-30",
       "featured": false
     },
@@ -462,7 +462,7 @@
       "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "blue",
       "icon": "SK",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-30",
       "featured": false
     },
@@ -480,7 +480,7 @@
       "url": "https://github.com/FlowiseAI/Flowise",
       "accent": "coral",
       "icon": "FL",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-30",
       "featured": false
     },
@@ -804,7 +804,7 @@
       "icon": "HN",
       "isNew": true,
       "addedAt": "2026-08-06",
-      "featured": true
+      "featured": false
     },
     {
       "id": "repomix",
@@ -840,6 +840,42 @@
       "icon": "AI",
       "isNew": true,
       "addedAt": "2026-08-06",
+      "featured": false
+    },
+    {
+      "id": "spacy",
+      "name": "spaCy",
+      "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
+      "category": "Research",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "cython",
+        "data-science"
+      ],
+      "url": "https://github.com/explosion/spaCy",
+      "accent": "purple",
+      "icon": "SP",
+      "isNew": true,
+      "addedAt": "2026-08-07",
+      "featured": true
+    },
+    {
+      "id": "vit-pytorch",
+      "name": "vit-pytorch",
+      "description": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch",
+      "category": "Create",
+      "tags": [
+        "artificial-intelligence",
+        "attention-mechanism",
+        "computer-vision",
+        "image-classification"
+      ],
+      "url": "https://github.com/lucidrains/vit-pytorch",
+      "accent": "blue",
+      "icon": "VP",
+      "isNew": true,
+      "addedAt": "2026-08-07",
       "featured": false
     }
   ]

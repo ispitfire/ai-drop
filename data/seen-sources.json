@@ -40,5 +40,7 @@
   "gh:harvard-edge/cs249r_book",
   "hn:49186767",
   "gh:yamadashy/repomix",
-  "gh:vercel/ai"
+  "gh:vercel/ai",
+  "gh:explosion/spaCy",
+  "gh:lucidrains/vit-pytorch"
 ]
