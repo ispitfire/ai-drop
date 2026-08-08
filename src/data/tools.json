@@ -495,7 +495,7 @@
       "url": "https://marbleos.com/demo",
       "accent": "lime",
       "icon": "WS",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-31",
       "featured": false
     },
@@ -512,7 +512,7 @@
       "url": "https://www.producthunt.com/products/minimax?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "purple",
       "icon": "MH",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-31",
       "featured": false
     },
@@ -530,7 +530,7 @@
       "url": "https://github.com/microsoft/AI-For-Beginners",
       "accent": "blue",
       "icon": "AF",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-07-31",
       "featured": false
     },
