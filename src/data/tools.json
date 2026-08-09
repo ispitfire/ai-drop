@@ -545,7 +545,7 @@
       "url": "https://code.intellios.ai/cwbrowser/",
       "accent": "coral",
       "icon": "IW",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-01",
       "featured": false
     },
@@ -562,7 +562,7 @@
       "url": "https://www.producthunt.com/products/nudgeforme?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "lime",
       "icon": "NU",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-01",
       "featured": false
     },
@@ -578,7 +578,7 @@
       "url": "https://github.com/jingyaogong/minimind",
       "accent": "purple",
       "icon": "MI",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-01",
       "featured": false
     },
