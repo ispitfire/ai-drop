@@ -593,7 +593,7 @@
       "url": "https://costperprompt.com/",
       "accent": "blue",
       "icon": "C–",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-02",
       "featured": false
     },
@@ -611,7 +611,7 @@
       "url": "https://github.com/usestrix/strix",
       "accent": "coral",
       "icon": "ST",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-02",
       "featured": false
     },
@@ -629,7 +629,7 @@
       "url": "https://github.com/Kong/kong",
       "accent": "lime",
       "icon": "KO",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-02",
       "featured": false
     },
@@ -858,7 +858,7 @@
       "icon": "SP",
       "isNew": true,
       "addedAt": "2026-08-07",
-      "featured": true
+      "featured": false
     },
     {
       "id": "vit-pytorch",
@@ -877,6 +877,21 @@
       "isNew": true,
       "addedAt": "2026-08-07",
       "featured": false
+    },
+    {
+      "id": "voice-driven-murder-mystery-interview-ai-suspects-with-your-voice",
+      "name": "Voice driven murder mystery, Interview AI suspects with your voice",
+      "description": "Voice driven murder mystery, Interview AI suspects with your voice",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://www.whodunnitai.com/",
+      "accent": "coral",
+      "icon": "VD",
+      "isNew": true,
+      "addedAt": "2026-08-10",
+      "featured": true
     }
   ]
 }
