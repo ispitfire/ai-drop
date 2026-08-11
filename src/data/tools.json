@@ -646,7 +646,7 @@
       "url": "https://www.producthunt.com/products/agentsky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "purple",
       "icon": "AG",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-03",
       "featured": false
     },
@@ -664,7 +664,7 @@
       "url": "https://github.com/Lightning-AI/pytorch-lightning",
       "accent": "blue",
       "icon": "PL",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-03",
       "featured": false
     },
@@ -682,7 +682,7 @@
       "url": "https://github.com/simstudioai/sim",
       "accent": "coral",
       "icon": "SI",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-03",
       "featured": false
     },
@@ -891,6 +891,21 @@
       "icon": "VD",
       "isNew": true,
       "addedAt": "2026-08-10",
+      "featured": false
+    },
+    {
+      "id": "needle2-14mb-agentic-llm-for-phones-wearables-smart-home-and-robots",
+      "name": "Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "description": "Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "category": "Automate",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://cactuscompute.com/needle",
+      "accent": "lime",
+      "icon": "N1",
+      "isNew": true,
+      "addedAt": "2026-08-11",
       "featured": true
     }
   ]
