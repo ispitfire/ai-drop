@@ -697,7 +697,7 @@
       "url": "https://hcker.news/?view=frontpage&ai=exclude",
       "accent": "lime",
       "icon": "HN",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-04",
       "featured": false
     },
@@ -715,7 +715,7 @@
       "url": "https://github.com/The-Art-of-Hacking/h4cker",
       "accent": "purple",
       "icon": "H4",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-04",
       "featured": false
     },
@@ -733,7 +733,7 @@
       "url": "https://github.com/microsoft/semantic-kernel",
       "accent": "blue",
       "icon": "SK",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-04",
       "featured": false
     },
