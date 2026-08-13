@@ -751,7 +751,7 @@
       "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
       "accent": "coral",
       "icon": "JA",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-05",
       "featured": false
     },
@@ -769,7 +769,7 @@
       "url": "https://github.com/invoke-ai/InvokeAI",
       "accent": "lime",
       "icon": "IN",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-05",
       "featured": false
     },
@@ -787,7 +787,7 @@
       "url": "https://github.com/harvard-edge/cs249r_book",
       "accent": "purple",
       "icon": "CB",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-05",
       "featured": false
     },
