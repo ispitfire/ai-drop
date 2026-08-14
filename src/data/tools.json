@@ -802,7 +802,7 @@
       "url": "https://sprinklz.io/public/nncrnx74ykir",
       "accent": "blue",
       "icon": "HN",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-06",
       "featured": false
     },
@@ -820,7 +820,7 @@
       "url": "https://github.com/yamadashy/repomix",
       "accent": "coral",
       "icon": "RE",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-06",
       "featured": false
     },
@@ -838,7 +838,7 @@
       "url": "https://github.com/vercel/ai",
       "accent": "lime",
       "icon": "AI",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-06",
       "featured": false
     },
