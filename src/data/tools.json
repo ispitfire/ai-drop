@@ -921,6 +921,21 @@
       "icon": "D–",
       "isNew": true,
       "addedAt": "2026-08-15",
+      "featured": false
+    },
+    {
+      "id": "a-public-ai-whose-memory-is-shared-across-all-users",
+      "name": "A public AI whose memory is shared across all users",
+      "description": "A public AI whose memory is shared across all users",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://wildstatic.com/",
+      "accent": "blue",
+      "icon": "AP",
+      "isNew": true,
+      "addedAt": "2026-08-17",
       "featured": true
     }
   ]
