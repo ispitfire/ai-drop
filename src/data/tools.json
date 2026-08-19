@@ -904,7 +904,7 @@
       "url": "https://cactuscompute.com/needle",
       "accent": "lime",
       "icon": "N1",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-11",
       "featured": false
     },
@@ -936,6 +936,24 @@
       "icon": "AP",
       "isNew": true,
       "addedAt": "2026-08-17",
+      "featured": false
+    },
+    {
+      "id": "nautilus-trader",
+      "name": "nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "category": "Create",
+      "tags": [
+        "algorithmic-trading-engine",
+        "artificial-intelligence",
+        "crypto-trading",
+        "equity-trading"
+      ],
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "accent": "coral",
+      "icon": "NT",
+      "isNew": true,
+      "addedAt": "2026-08-19",
       "featured": true
     }
   ]
