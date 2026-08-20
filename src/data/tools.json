@@ -954,6 +954,24 @@
       "icon": "NT",
       "isNew": true,
       "addedAt": "2026-08-19",
+      "featured": false
+    },
+    {
+      "id": "awesome-ai-agents",
+      "name": "awesome-ai-agents",
+      "description": "A list of AI autonomous agents",
+      "category": "Automate",
+      "tags": [
+        "agent",
+        "ai",
+        "artificial-intelligence",
+        "autogpt"
+      ],
+      "url": "https://github.com/e2b-dev/awesome-ai-agents",
+      "accent": "lime",
+      "icon": "AA",
+      "isNew": true,
+      "addedAt": "2026-08-20",
       "featured": true
     }
   ]
