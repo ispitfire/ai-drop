@@ -972,6 +972,21 @@
       "icon": "AA",
       "isNew": true,
       "addedAt": "2026-08-20",
+      "featured": false
+    },
+    {
+      "id": "huzzah-a-novel-approach-to-coding-with-ai",
+      "name": "Huzzah – a novel approach to coding with AI",
+      "description": "Huzzah – a novel approach to coding with AI",
+      "category": "Code",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "accent": "purple",
+      "icon": "H–",
+      "isNew": true,
+      "addedAt": "2026-08-21",
       "featured": true
     }
   ]
