@@ -987,7 +987,37 @@
       "icon": "H–",
       "isNew": true,
       "addedAt": "2026-08-21",
+      "featured": false
+    },
+    {
+      "id": "ozbrain-a-shared-brain-for-knowledge-between-agents-and-your-team",
+      "name": "OzBrain, a shared brain for knowledge between agents and your team",
+      "description": "OzBrain, a shared brain for knowledge between agents and your team",
+      "category": "Automate",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://ozbrain.com",
+      "accent": "blue",
+      "icon": "OA",
+      "isNew": true,
+      "addedAt": "2026-08-22",
       "featured": true
+    },
+    {
+      "id": "proliferate-open-source-self-hostable-codex-for-any-coding-agent",
+      "name": "Proliferate- open-source, self-hostable Codex for any coding agent",
+      "description": "Proliferate- open-source, self-hostable Codex for any coding agent",
+      "category": "Code",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://github.com/proliferate-ai/proliferate",
+      "accent": "coral",
+      "icon": "PO",
+      "isNew": true,
+      "addedAt": "2026-08-22",
+      "featured": false
     }
   ]
 }
