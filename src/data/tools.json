@@ -919,7 +919,7 @@
       "url": "https://app.deltix.ai",
       "accent": "purple",
       "icon": "D–",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-15",
       "featured": false
     },
@@ -1002,7 +1002,7 @@
       "icon": "OA",
       "isNew": true,
       "addedAt": "2026-08-22",
-      "featured": true
+      "featured": false
     },
     {
       "id": "proliferate-open-source-self-hostable-codex-for-any-coding-agent",
@@ -1018,6 +1018,24 @@
       "isNew": true,
       "addedAt": "2026-08-22",
       "featured": false
+    },
+    {
+      "id": "ncnn",
+      "name": "ncnn",
+      "description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
+      "category": "Create",
+      "tags": [
+        "android",
+        "arm-neon",
+        "artificial-intelligence",
+        "caffe"
+      ],
+      "url": "https://github.com/Tencent/ncnn",
+      "accent": "lime",
+      "icon": "NC",
+      "isNew": true,
+      "addedAt": "2026-08-23",
+      "featured": true
     }
   ]
 }
