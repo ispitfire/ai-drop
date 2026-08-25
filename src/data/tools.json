@@ -934,7 +934,7 @@
       "url": "https://wildstatic.com/",
       "accent": "blue",
       "icon": "AP",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-17",
       "featured": false
     },
