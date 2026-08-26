@@ -1035,6 +1035,21 @@
       "icon": "NC",
       "isNew": true,
       "addedAt": "2026-08-23",
+      "featured": false
+    },
+    {
+      "id": "texbrain-a-latex-editor-that-runs-pdftex-in-the-browser-via-wasm",
+      "name": "TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+      "description": "TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+      "category": "Code",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://github.com/swimmingbrain/texbrain",
+      "accent": "purple",
+      "icon": "TA",
+      "isNew": true,
+      "addedAt": "2026-08-26",
       "featured": true
     }
   ]
