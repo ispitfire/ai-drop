@@ -952,7 +952,7 @@
       "url": "https://github.com/nautechsystems/nautilus_trader",
       "accent": "coral",
       "icon": "NT",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-19",
       "featured": false
     },
@@ -1050,7 +1050,54 @@
       "icon": "TA",
       "isNew": true,
       "addedAt": "2026-08-26",
+      "featured": false
+    },
+    {
+      "id": "enter-pro",
+      "name": "Enter Pro",
+      "description": "The AI-native platform to build and scale your apps",
+      "category": "Code",
+      "tags": [
+        "developer tools",
+        "artificial intelligence",
+        "no-code"
+      ],
+      "url": "https://www.producthunt.com/products/enter-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "blue",
+      "icon": "EP",
+      "isNew": true,
+      "addedAt": "2026-08-27",
       "featured": true
+    },
+    {
+      "id": "skydive",
+      "name": "Skydive",
+      "description": "Build cloud agents that work across your tools",
+      "category": "Automate",
+      "tags": [
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/skydive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "coral",
+      "icon": "SK",
+      "isNew": true,
+      "addedAt": "2026-08-27",
+      "featured": false
+    },
+    {
+      "id": "lenz",
+      "name": "Lenz",
+      "description": "Independent, multi-model fact-checking API for AI workflows",
+      "category": "Automate",
+      "tags": [
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/lenz-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "lime",
+      "icon": "LE",
+      "isNew": true,
+      "addedAt": "2026-08-27",
+      "featured": false
     }
   ]
 }
