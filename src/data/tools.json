@@ -970,7 +970,7 @@
       "url": "https://github.com/e2b-dev/awesome-ai-agents",
       "accent": "lime",
       "icon": "AA",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-20",
       "featured": false
     },
@@ -1067,7 +1067,7 @@
       "icon": "EP",
       "isNew": true,
       "addedAt": "2026-08-27",
-      "featured": true
+      "featured": false
     },
     {
       "id": "skydive",
@@ -1097,6 +1097,56 @@
       "icon": "LE",
       "isNew": true,
       "addedAt": "2026-08-27",
+      "featured": false
+    },
+    {
+      "id": "pageindex",
+      "name": "PageIndex",
+      "description": "Accurate, trustworthy answers across professional documents",
+      "category": "Work",
+      "tags": [
+        "productivity",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/pageindexai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "purple",
+      "icon": "PA",
+      "isNew": true,
+      "addedAt": "2026-08-28",
+      "featured": true
+    },
+    {
+      "id": "caddi",
+      "name": "Caddi",
+      "description": "Agent that builds agents by only showing your work only once",
+      "category": "Automate",
+      "tags": [
+        "productivity",
+        "legal",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/caddi-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "blue",
+      "icon": "CA",
+      "isNew": true,
+      "addedAt": "2026-08-28",
+      "featured": false
+    },
+    {
+      "id": "microduck",
+      "name": "Microduck",
+      "description": "A tiny open-source biped you can train yourself",
+      "category": "Automate",
+      "tags": [
+        "open source",
+        "robots",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/hugging-face?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "coral",
+      "icon": "MI",
+      "isNew": true,
+      "addedAt": "2026-08-28",
       "featured": false
     }
   ]
