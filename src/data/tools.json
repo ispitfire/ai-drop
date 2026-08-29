@@ -985,7 +985,7 @@
       "url": "https://www.danielvaughn.dev/posts/huzzah/",
       "accent": "purple",
       "icon": "H–",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-21",
       "featured": false
     },
@@ -1113,7 +1113,7 @@
       "icon": "PA",
       "isNew": true,
       "addedAt": "2026-08-28",
-      "featured": true
+      "featured": false
     },
     {
       "id": "caddi",
@@ -1147,6 +1147,55 @@
       "icon": "MI",
       "isNew": true,
       "addedAt": "2026-08-28",
+      "featured": false
+    },
+    {
+      "id": "1752vc-pitch-deck-analyzer",
+      "name": "1752vc Pitch Deck Analyzer",
+      "description": "Know what investors will say before you ever hit send.",
+      "category": "Create",
+      "tags": [
+        "venture capital",
+        "artificial intelligence",
+        "fundraising"
+      ],
+      "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "lime",
+      "icon": "1P",
+      "isNew": true,
+      "addedAt": "2026-08-29",
+      "featured": true
+    },
+    {
+      "id": "hy4-preview",
+      "name": "Hy4 preview",
+      "description": "Tencent’s 770B open model for long-horizon work",
+      "category": "Create",
+      "tags": [
+        "open source",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "purple",
+      "icon": "HP",
+      "isNew": true,
+      "addedAt": "2026-08-29",
+      "featured": false
+    },
+    {
+      "id": "cohere-parse-5",
+      "name": "Cohere Parse 5",
+      "description": "Turn complex docs, tables & images into AI-ready data",
+      "category": "Create",
+      "tags": [
+        "api",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "blue",
+      "icon": "CP",
+      "isNew": true,
+      "addedAt": "2026-08-29",
       "featured": false
     }
   ]
