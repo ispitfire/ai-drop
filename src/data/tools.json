@@ -1000,7 +1000,7 @@
       "url": "https://ozbrain.com",
       "accent": "blue",
       "icon": "OA",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-22",
       "featured": false
     },
@@ -1015,7 +1015,7 @@
       "url": "https://github.com/proliferate-ai/proliferate",
       "accent": "coral",
       "icon": "PO",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-22",
       "featured": false
     },
@@ -1164,7 +1164,7 @@
       "icon": "1P",
       "isNew": true,
       "addedAt": "2026-08-29",
-      "featured": true
+      "featured": false
     },
     {
       "id": "hy4-preview",
@@ -1196,6 +1196,57 @@
       "icon": "CP",
       "isNew": true,
       "addedAt": "2026-08-29",
+      "featured": false
+    },
+    {
+      "id": "topview-motion-studio",
+      "name": "Topview Motion Studio",
+      "description": "Create launch videos without touching After Effects",
+      "category": "Create",
+      "tags": [
+        "design tools",
+        "productivity",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/topview-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "coral",
+      "icon": "TM",
+      "isNew": true,
+      "addedAt": "2026-08-30",
+      "featured": true
+    },
+    {
+      "id": "olostep",
+      "name": "Olostep",
+      "description": "Turn the Web into Clean Data for AI",
+      "category": "Code",
+      "tags": [
+        "api",
+        "developer tools",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/olostep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "lime",
+      "icon": "OL",
+      "isNew": true,
+      "addedAt": "2026-08-30",
+      "featured": false
+    },
+    {
+      "id": "murfy-ai",
+      "name": "Murfy AI",
+      "description": "Write, review, and publish to arXiv 10x faster",
+      "category": "Work",
+      "tags": [
+        "productivity",
+        "writing",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/murfy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "purple",
+      "icon": "MA",
+      "isNew": true,
+      "addedAt": "2026-08-30",
       "featured": false
     }
   ]
