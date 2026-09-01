@@ -1262,7 +1262,7 @@
       "icon": "A–",
       "isNew": true,
       "addedAt": "2026-08-31",
-      "featured": true
+      "featured": false
     },
     {
       "id": "video-agent-by-fotor",
@@ -1296,6 +1296,58 @@
       "icon": "BR",
       "isNew": true,
       "addedAt": "2026-08-31",
+      "featured": false
+    },
+    {
+      "id": "creatium-coach",
+      "name": "Creatium Coach",
+      "description": "Your multimedia mentor that takes you from mid to great",
+      "category": "Create",
+      "tags": [
+        "education",
+        "artificial intelligence",
+        "online learning"
+      ],
+      "url": "https://www.producthunt.com/products/creatium?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "purple",
+      "icon": "CC",
+      "isNew": true,
+      "addedAt": "2026-09-01",
+      "featured": true
+    },
+    {
+      "id": "openhuman",
+      "name": "openhuman",
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "category": "Code",
+      "tags": [
+        "agent-framework",
+        "ai-agents",
+        "artificial-intelligence",
+        "developer-tools"
+      ],
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "accent": "blue",
+      "icon": "OP",
+      "isNew": true,
+      "addedAt": "2026-09-01",
+      "featured": false
+    },
+    {
+      "id": "gauth-ai-course",
+      "name": "Gauth AI Course",
+      "description": "AI courses you can watch, quiz through, and create",
+      "category": "Create",
+      "tags": [
+        "education",
+        "artificial intelligence",
+        "online learning"
+      ],
+      "url": "https://www.producthunt.com/products/gauth-ai-course?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "coral",
+      "icon": "GA",
+      "isNew": true,
+      "addedAt": "2026-09-01",
       "featured": false
     }
   ]
