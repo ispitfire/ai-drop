@@ -1313,7 +1313,7 @@
       "icon": "CC",
       "isNew": true,
       "addedAt": "2026-09-01",
-      "featured": true
+      "featured": false
     },
     {
       "id": "openhuman",
@@ -1348,6 +1348,56 @@
       "icon": "GA",
       "isNew": true,
       "addedAt": "2026-09-01",
+      "featured": false
+    },
+    {
+      "id": "weedout-safari-extension-that-hides-youtube-ai-labeled-videos",
+      "name": "Weedout – Safari extension that hides YouTube AI-labeled videos",
+      "description": "Weedout – Safari extension that hides YouTube AI-labeled videos",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://masteranza.github.io/weedout/",
+      "accent": "lime",
+      "icon": "W–",
+      "isNew": true,
+      "addedAt": "2026-09-02",
+      "featured": true
+    },
+    {
+      "id": "monid",
+      "name": "Monid",
+      "description": "OpenRouter for agent tools",
+      "category": "Code",
+      "tags": [
+        "api",
+        "developer tools",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "purple",
+      "icon": "MO",
+      "isNew": true,
+      "addedAt": "2026-09-02",
+      "featured": false
+    },
+    {
+      "id": "vane",
+      "name": "Vane",
+      "description": "Vane is an AI-powered answering engine.",
+      "category": "Automate",
+      "tags": [
+        "ai-agents",
+        "ai-search-engine",
+        "answering-engine",
+        "artificial-intelligence"
+      ],
+      "url": "https://github.com/ItzCrazyKns/Vane",
+      "accent": "blue",
+      "icon": "VA",
+      "isNew": true,
+      "addedAt": "2026-09-02",
       "featured": false
     }
   ]
