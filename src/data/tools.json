@@ -1048,7 +1048,7 @@
       "url": "https://github.com/swimmingbrain/texbrain",
       "accent": "purple",
       "icon": "TA",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-26",
       "featured": false
     },
@@ -1363,7 +1363,7 @@
       "icon": "W–",
       "isNew": true,
       "addedAt": "2026-09-02",
-      "featured": true
+      "featured": false
     },
     {
       "id": "monid",
@@ -1398,6 +1398,58 @@
       "icon": "VA",
       "isNew": true,
       "addedAt": "2026-09-02",
+      "featured": false
+    },
+    {
+      "id": "agent-builder-by-airtop",
+      "name": "Agent Builder by Airtop",
+      "description": "Build agents that heal themselves. ",
+      "category": "Code",
+      "tags": [
+        "artificial intelligence",
+        "no-code",
+        "vibe coding"
+      ],
+      "url": "https://www.producthunt.com/products/airtop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "coral",
+      "icon": "AB",
+      "isNew": true,
+      "addedAt": "2026-09-03",
+      "featured": true
+    },
+    {
+      "id": "magicrew",
+      "name": "MagiCrew",
+      "description": "Give everyone their own AI workforce in one platform",
+      "category": "Code",
+      "tags": [
+        "productivity",
+        "artificial intelligence",
+        "github",
+        "no-code"
+      ],
+      "url": "https://www.producthunt.com/products/magicrew?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "lime",
+      "icon": "MA",
+      "isNew": true,
+      "addedAt": "2026-09-03",
+      "featured": false
+    },
+    {
+      "id": "omi",
+      "name": "Omi",
+      "description": "Ask your computer anything you saw or heard",
+      "category": "Work",
+      "tags": [
+        "productivity",
+        "open source",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/open-source-ai-necklace-friend?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "purple",
+      "icon": "OM",
+      "isNew": true,
+      "addedAt": "2026-09-03",
       "featured": false
     }
   ]
