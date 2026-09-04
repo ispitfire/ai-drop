@@ -1065,7 +1065,7 @@
       "url": "https://www.producthunt.com/products/enter-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "blue",
       "icon": "EP",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-27",
       "featured": false
     },
@@ -1080,7 +1080,7 @@
       "url": "https://www.producthunt.com/products/skydive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "coral",
       "icon": "SK",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-27",
       "featured": false
     },
@@ -1095,7 +1095,7 @@
       "url": "https://www.producthunt.com/products/lenz-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "lime",
       "icon": "LE",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-27",
       "featured": false
     },
@@ -1415,7 +1415,7 @@
       "icon": "AB",
       "isNew": true,
       "addedAt": "2026-09-03",
-      "featured": true
+      "featured": false
     },
     {
       "id": "magicrew",
@@ -1450,6 +1450,58 @@
       "icon": "OM",
       "isNew": true,
       "addedAt": "2026-09-03",
+      "featured": false
+    },
+    {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "description": "OpenAI's most capable model for end-to-end work",
+      "category": "Code",
+      "tags": [
+        "productivity",
+        "developer tools",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/gpt-6-astra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "blue",
+      "icon": "G6",
+      "isNew": true,
+      "addedAt": "2026-09-04",
+      "featured": true
+    },
+    {
+      "id": "myaicademy",
+      "name": "myAIcademy",
+      "description": "Learn AI skills for your specific role and team",
+      "category": "Work",
+      "tags": [
+        "android",
+        "productivity",
+        "education",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/myaicademy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "coral",
+      "icon": "MY",
+      "isNew": true,
+      "addedAt": "2026-09-04",
+      "featured": false
+    },
+    {
+      "id": "compliance-by-twelvelabs",
+      "name": "Compliance by TwelveLabs",
+      "description": "Video compliance review powered by rules you control",
+      "category": "Create",
+      "tags": [
+        "saas",
+        "artificial intelligence",
+        "video"
+      ],
+      "url": "https://www.producthunt.com/products/twelvelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "lime",
+      "icon": "CB",
+      "isNew": true,
+      "addedAt": "2026-09-04",
       "featured": false
     }
   ]
