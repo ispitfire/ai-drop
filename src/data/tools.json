@@ -1111,7 +1111,7 @@
       "url": "https://www.producthunt.com/products/pageindexai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "purple",
       "icon": "PA",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-28",
       "featured": false
     },
@@ -1128,7 +1128,7 @@
       "url": "https://www.producthunt.com/products/caddi-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "blue",
       "icon": "CA",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-28",
       "featured": false
     },
@@ -1145,7 +1145,7 @@
       "url": "https://www.producthunt.com/products/hugging-face?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
       "accent": "coral",
       "icon": "MI",
-      "isNew": true,
+      "isNew": false,
       "addedAt": "2026-08-28",
       "featured": false
     },
@@ -1467,7 +1467,7 @@
       "icon": "G6",
       "isNew": true,
       "addedAt": "2026-09-04",
-      "featured": true
+      "featured": false
     },
     {
       "id": "myaicademy",
@@ -1502,6 +1502,56 @@
       "icon": "CB",
       "isNew": true,
       "addedAt": "2026-09-04",
+      "featured": false
+    },
+    {
+      "id": "open-source-eink-bike-computer",
+      "name": "Open-Source eInk Bike Computer",
+      "description": "Open-Source eInk Bike Computer",
+      "category": "Create",
+      "tags": [
+        "hacker-news"
+      ],
+      "url": "https://opentrailpaper.com",
+      "accent": "purple",
+      "icon": "OS",
+      "isNew": true,
+      "addedAt": "2026-09-05",
+      "featured": true
+    },
+    {
+      "id": "dif-sh",
+      "name": "dif.sh",
+      "description": "Markdown feature flags your coding agent installs for you",
+      "category": "Code",
+      "tags": [
+        "open source",
+        "developer tools",
+        "artificial intelligence",
+        "github"
+      ],
+      "url": "https://www.producthunt.com/products/dif-sh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "blue",
+      "icon": "DS",
+      "isNew": true,
+      "addedAt": "2026-09-05",
+      "featured": false
+    },
+    {
+      "id": "reflexio",
+      "name": "Reflexio",
+      "description": "Behavioral learning that makes AI agents better over time",
+      "category": "Code",
+      "tags": [
+        "saas",
+        "developer tools",
+        "artificial intelligence"
+      ],
+      "url": "https://www.producthunt.com/products/reflexio-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+ai+drop+automation+%28ID%3A+294404%29",
+      "accent": "coral",
+      "icon": "RE",
+      "isNew": true,
+      "addedAt": "2026-09-05",
       "featured": false
     }
   ]
